@@ -1,0 +1,26 @@
+Package: montyhall
+Title: Simulations of the Goat Game and Win a Car
+Version: 0.1.0.000
+Authors@R: 
+    person(given = "Andres",
+           family = "Gonzalez",
+           role = c("aut", "cre"),
+           email = "ajcapanzana@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package has 7 functions total. You can simulate
+            the Monty Hall Problem, a game show with 3 doors. Behind
+            the doors are 2 goats and 1 car. Choose a car door and you
+            win a car, choose a goat door and you lose. This package 
+            has a simulation function to allow for many iterations 
+            to run in a loop. You can view the table of results- are 
+            you more likely to win by sticking with your original door,
+            or are you more likely to win by switching doors after 
+            a goat is revealed?
+Depends: 
+   dplyr 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
